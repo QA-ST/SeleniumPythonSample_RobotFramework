@@ -1,0 +1,30 @@
+# Black/White list page elements
+AddBlackWhiteListButton = "//h4[text()='Black/White List']//following::button[text()='Add']"
+AddWhiteListOptionBtn = "//h4//following::button[text()='Add']//following::div[1]//span[text()='White List']"
+AddBlackListOptionBtn = "//h4//following::button[text()='Add']//following::div[1]//span[text()='Black List']"
+BlackListTabButton = "//div/button[@id='switch-tab-BLACKLIST']"
+WhiteListTabButton = "//div/button[@id='switch-tab-WHITELIST']"
+NavigateBackToBlackWhiteListPageBtn = "(//span[contains(text(),'Response')])[2]//preceding::div[1]//button"
+SearchListBar = "//input[@name='search']"
+BlackWhiteListEditIcon = "//section[contains(@class,'dz_table_container')]//div[contains(@class,'body_item')][3]/span[text()='listName']//following::button[1]"
+BlackWhiteListDeleteIcon = "//section[contains(@class,'dz_table_container')]//div[contains(@class,'body_item')][3]/span[text()='listName']//following::button[2]"
+DeleteBlackWhiteListConfirmBtn = "//section//span[text()='DELETE BLACK/WHITE LIST']//following::div/button[text()='Delete']"
+
+# Add black/white list page elements
+ListNameInputField = "//div[contains(@class,'dz_input-text')]//input[@name='name']"
+ListDescriptionInputField = "//div[contains(@class,'dz_input-text')]//textarea[@name='description']"
+
+# Black/White list details page
+AddEntryInListButton = "//button/span[text()='Add Entry']"
+EntryNameInputField = "//input[@name='name']"
+EntryMonitoringSystemInputField = "//input[@id='idVendor']"
+ListEntryCheckAllCheckbox = "(//span[contains(@class,'input-checkbox')])[1]"
+ListEntryFieldQueryInputField = "(//input[@name='checkAll']//following::ul//li[fieldQueryOrder]//div[contains(@class,'dz_input-text')]//input)[1]"
+ListEntryFieldQueryValueInputField = "(//input[@name='checkAll']//following::ul//li[fieldQueryOrder]//div[contains(@class,'dz_input-text')]//input)[2]"
+ListEntryFieldRegexCheckbox = "//input[@name='checkAll']//following::ul//li[fieldQueryOrder]//span[contains(@class,'dz_input-checkbox')]"
+ListConditionFieldInputBox = "(//input[@name='checkAll']//following::ul//li[fieldQueryOrder]//input)[1]"
+AddFieldInListButton = "(//input[@name='checkAll']//following::ul//li[fieldQueryOrder]//following::button[contains(@class,'dz_button-common')])[2]/*[local-name()='svg']"
+SelectFieldToAddButton = "//button[contains(@class,'dz_button-common')]//span[text()='fieldType']"
+SearchEntryBar = "//input[@name='search']"
+DeleteListEntryButton = "(//div[contains(@class,'table_container_body')])[1]//div[contains(@class,'container_body_item')][3]//span[text()='entryName']//following::button[2]"
+DeleteListEntryConfirmBtn = "//section//span[text()='DELETE ENTRY']//following::button[text()='Delete']"

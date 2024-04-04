@@ -1,0 +1,78 @@
+# Rule main test data
+RuleLanguage = "en_US"
+TestingRuleName = "Testing Rule"
+TestingRuleNameEdited = "Testing rule name edited"
+RuleAttack = "Data leak"
+DataSource = "Windows"
+EventType = "Multiple Logon Failures"
+Wazuh005_RelationId = "138005"
+Wazuh007_RelationId = "138007"
+Wazuh004_RelationId = "138004"
+Wazuh009_RelationId = "138009"
+Wazuh001_RelationId = "138001"
+Wazuh002_RelationId = "138002"
+
+# Rule monitoring systems test data
+TestRuleDescription = "Test rule Description"
+RulesetGroup_Rule = "rule"
+TestRulesetGroupValue_Rule = "Test rule group value"
+RulesetGroup_Match = "match"
+TestRulesetGroupValue_Match = "Test match group value"
+TestVendorProfileName = "Test vendor profile"
+
+# Rule details test data
+IncidentDescription = "Data leak"
+SourceIpGrouping = "Source IP"
+SourceIpVerifyViewRuleMenu = "/data/srcip WAZUH"
+DestinationIpGrouping = "Destination IP"
+DestinationIpVerifyRuleMenu = "/data/dstip WAZUH"
+
+# Rule mitre techniques test data
+Recognition_MitreTechnique = "Recognition"
+ActiveScanning_SubMitreTechnique = "Active Scanning"
+
+# Rule playbooks test data
+TestPlaybookName = "Test Playbook"
+PreparationPhaseName = "Preparation Phase"
+IdentificationPhaseName = "Identification Phase"
+ContainmentPhaseName = "Containment Phase"
+EradicationPhaseName = "Eradication Phase"
+RecoveryPhaseName = "Recovery Phase"
+MssPhaseType = "MSS"
+CompanyPhaseType = "COMPANY"
+TestMssPreparationPhaseStep = "Test MSS plan"
+TestCompanyPreparationPhaseStep = "Test Company plan"
+TestMssIdentificationPhaseStep = "Test MSS identify"
+TestCompanyIdentificationPhaseStep = "Test Company identify"
+TestMssContainmentPhaseStep = "Test MSS containment"
+TestCompanyContainmentPhaseStep = "Test Company containment"
+TestMssEradicationPhaseStep = "Test MSS eradication"
+TestCompanyEradicationPhaseStep = "Test Company eradication"
+TestMssRecoveryPhaseResponsible = "Test MSS recovery"
+TestCompanyRecoveryPhaseStep = "Test Company recovery"
+TestLessonsLearned1 = "Test Lesson 1"
+TestLessonsLearned2 = "Test Lesson 2"
+TestComment1 = "Test Comment 1"
+TestComment2 = "Test Comment 2"
+TestVersioningReviewComment = "Test versioning comment"
+TestVersioningReviewComment2 = "Test versioning comment 2"
+
+RuleNameToTestPlaybook = "Test Playbook Rule"
+TestPlaybookNameEdited = "Test Playbook name edited"
+TestMssPreparationPhaseStepEdited = "Test MSS plan edited"
+TestCompanyPreparationPhaseStepEdited = "Test Company plan edited"
+TestMssIdentificationPhaseStepEdited = "Test MSS identify edited"
+TestCompanyIdentificationPhaseStepEdited = "Test Company identify edited"
+TestMssContainmentPhaseStepEdited = "Test MSS containment edited"
+TestCompanyContainmentPhaseStepEdited = "Test Company containment edited"
+TestMssEradicationPhaseStepEdited = "Test MSS eradication edited"
+TestCompanyEradicationPhaseStepEdited = "Test Company eradication edited"
+TestMssRecoveryPhaseResponsibleEdited = "Test MSS recovery edited"
+TestCompanyRecoveryPhaseStepEdited = "Test Company recovery edited"
+
+# Rule companies test data
+Main_RuleProfile = "Main"
+Main_VendorProfile = "Main"
+
+# Rule data verification in the view rule collapse menu
+WazuhIntegrationRuleSetSectionId = "wazuh"
